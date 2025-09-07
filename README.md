@@ -74,6 +74,13 @@ Banking-Data-Engineering-Platform/
 │-- sysArch.jpg        # system architecture diagram
 │-- README.md          # project documentation
 
+## 📊 Sample Banking Dashboards
+
+Here are some dashboards generated from the pipeline data:
+
+[Dashboard 1](Image Sep 7, 2025, 03_05_17 PM.png)
+[Dashboard 2](Image Sep 7, 2025, 03_01_14 PM.png)
+[Dashboard 3](Image Sep 7, 2025, 02_57_15 PM.png)
 
 
 
