@@ -78,9 +78,9 @@ Banking-Data-Engineering-Platform/
 
 Here are some dashboards generated from the pipeline data:
 
-[Dashboard 1](Image Sep 7, 2025, 03_05_17 PM.png)
-[Dashboard 2](Image Sep 7, 2025, 03_01_14 PM.png)
-[Dashboard 3](Image Sep 7, 2025, 02_57_15 PM.png)
+[Dashboard 1](DASHBOARD1.png)
+[Dashboard 2](DASHBOARD2.png)
+[Dashboard 3](DASHBOARD3.png)
 
 
 
