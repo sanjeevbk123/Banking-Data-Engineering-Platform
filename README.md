@@ -1,23 +1,18 @@
-# Banking Data Warehouse Pipeline
+# Banking Data Engineering Platform — Sanjeev b k
 
-![Project Workflow](sysArch.jpg)
+ End-to-end banking transaction pipeline demo (ingest → transform → warehouse → visualize).
 
-## Project Overview
-This project demonstrates an end-to-end data pipeline specifically designed for banking data using AWS and dbt. The goal is to ingest, process, and analyze banking data efficiently, catering to various data consumers such as Data Analysts, Data Scientists, BI Developers, and Operations Teams.
+## Tech stack
+AWS S3 • PySpark • Apache Airflow • dbt • Snowflake • Power BI
 
-## Architecture
-1. **Data Generation:** Using Python scripts to generate banking data.
-2. **Data Storage:** Storing generated data in Amazon S3.
-3. **Ingestion and Loading:** Using AWS Glue to ingest and load data from S3 into Amazon Redshift.
-4. **Data Transformation:** Utilizing dbt (data build tool) to transform data within Amazon Redshift.
-    - **Bronze Layer:** Raw ingestion and history.
-    - **Silver Layer:** Filtered, cleaned, and augmented data.
-    - **Gold Layer:** Business-level aggregates.
+## What I added / adapted
+- Rebranded and adapted for Snowflake & Airflow.
+- Added `.env.example` and `.gitignore`.
+- Included architecture diagram and sample dashboard screenshot in /docs.
 
-## Technologies Used
-- **AWS S3**: For scalable storage.
-- **AWS Glue**: For ETL operations.
-- **Amazon Redshift**: For data warehousing.
-- **dbt**: For data transformation and modeling.
-- **Python**: For data generation scripts.
+## How to view
+- See `sysArch.jpg` for architecture.
+- This is a demo repository; no production secrets are included.
+
+**Author:** Your Name — https://github.com/yourusername
 
